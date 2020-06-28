@@ -1,4 +1,8 @@
 # camarasDahuaRaspi
+
+Monitoreo de un DVR Dahua a traves de una Raspberry Pi utilizando omxplayer y el protocolo RTSP
+
+
 Para que se ejecute al inicio debemos agregar en el archivo /etc/rc.local
 ```bash
 sleep 20
