@@ -1,5 +1,5 @@
 import urllib.request, json 
-with urllib.request.urlopen("http://api.openweathermap.org/data/2.5/weather?q=Berisso,ar&APPID=d3d45ad689ba9642308ed1d74378b929") as url:
+with urllib.request.urlopen("http://api.openweathermap.org/data/2.5/weather?q=Berisso,ar&APPID=MIAPIKEY") as url:
     data = json.loads(url.read().decode())
 
 print("00:00:00,00 --> 00:10:30,00")
